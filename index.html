@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-bar">
+        <a href="#" class="header-logo-link">
+          <svg class="heder-logo-icon">
+            <use href="./images/icons.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <button type="button" class="header-menu-btn">
+          <svg
+            class="header-menu-icon"
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5.33334 8H26.6667M5.33334 16H16M5.33334 24H26.6667"
+              stroke="#FBFBFB"
+              stroke-width="3"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a href="" class="header-nav-link">How It Works</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="" class="header-nav-link">Vegetables</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="" class="header-nav-link">Reviews</a>
+            </li>
+          </ul>
+          <button type="button" class="header-nav-btn">Shop now</button>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-container">
+          <div class="hero-text-container">
+            <h1 class="hero-title">organic vegetables to your diet today!</h1>
+            <p class="hero-text">
+              Our expertly curated vegetable baskets are made with the freshest,
+              highest quality vegetables available. Fresh Harvest Box has got
+              you covered. Fresh, high-quality vegetables in expertly curated
+              vegetable baskets delivered to you.
+            </p>
+          </div>
+          <div class="hero-img-container"></div>
+        </div>
+      </section>
+      <section class="work">
+        <h2 class="visually-hidden">How it works</h2>
+        <div class="work-container">
+          <div class="work-img-container">
+            <img
+              scrset="./images/how-it-works.jpg 1x, ./images/how-it-works@2x.jpg 2x"
+              src="./images/how-it-works.jpg"
+              alt=""
+              class="work-img"
+            />
+          </div>
+          <div class="work-text-bg">
+            <div class="work-text-container">
+              <h3 class="work-subtitle">
+                To order your <span>vegetable</span> basket, simply follow these
+                <span>easy steps</span>
+              </h3>
+              <p class="work-text">
+                Our baskets are assembled with care and delivered straight to
+                your doorstep, so you can enjoy the taste of fresh fruit without
+                ever leaving your home.
+              </p>
+              <ol class="work-list">
+                <li class="work-item">
+                  <div>
+                    Just choose <span>the vegetable</span> you want to order by
+                    clicking on the checkboxes <span>next to it</span>.
+                  </div>
+                </li>
+                <li class="work-item">
+                  <div>
+                    Click on <span>the basket</span> and fill out the form.
+                  </div>
+                </li>
+                <li class="work-item">
+                  <div>
+                    Sit back and relax! Your
+                    <span>fresh vegetables</span> basket will be delivered.
+                  </div>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="advertisement">
+        <div class="container ad-container">
+          <h2 class="visually-hidden">Advertisement</h2>
+          <p class="ad-text">
+            <span>Discount up to 40%! </span>Taste the vitamins and keep your
+            health
+          </p>
+          <div class="ad-green-bg"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+    <div class="backdrop">
+      <div class="mobile-menu">
+        <div class="container menu-wrap">
+          <button type="button" class="menu-close-btn">
+            <svg class="menu-close-icon">
+              <use href="./images/icons.svg#icon-close-btn"></use>
+            </svg>
+          </button>
+          <div class="menu-container">
+            <ul class="menu-list">
+              <li class="menu-item">
+                <a href="" class="menu-link">How It Works</a>
+              </li>
+              <li class="menu-item">
+                <a href="" class="menu-link">Vegetables</a>
+              </li>
+              <li class="menu-item">
+                <a href="" class="menu-link">Reviews</a>
+              </li>
+            </ul>
+            <button type="button" class="menu-btn">Shop now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="module" src="./app/app.js"></script>
+</html>
