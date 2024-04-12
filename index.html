@@ -79,7 +79,10 @@
         <div class="work-container">
           <div class="work-img-container">
             <img
-              scrset="./images/how-it-works.jpg 1x, ./images/how-it-works@2x.jpg 2x"
+              srcset="
+                ./images/how-it-works@2x.jpg 2x,
+                ./images/how-it-works.jpg    1x
+              "
               src="./images/how-it-works.jpg"
               alt=""
               class="work-img"
@@ -220,7 +223,7 @@
           <ul class="review-list">
             <li class="review-item">
               <img
-                srcset="./images/john.png 1x, ./images/john@2x.png 2x"
+                srcset="./images/john@2x.png 2x, ./images/john.png 1x"
                 src="./images/john.png"
                 alt=""
                 class="review-item-img"
@@ -234,7 +237,7 @@
             </li>
             <li class="review-item">
               <img
-                srcset="./images/victoria.png 1x, ./images/victoria@2x.png 2x"
+                srcset="./images/victoria@2x.png 2x, ./images/victoria.png 1x"
                 src="./images/victoria.png"
                 alt=""
                 class="review-item-img"
@@ -248,7 +251,7 @@
             </li>
             <li class="review-item">
               <img
-                srcset="./images/ihor.png 1x, ./images/ihor@2x.png 2x"
+                srcset="./images/ihor@2x.png 2x, ./images/ihor.png 1x"
                 src="./images/ihor.png"
                 alt=""
                 class="review-item-img"
@@ -261,6 +264,84 @@
               </p>
             </li>
           </ul>
+        </div>
+      </section>
+      <section class="order">
+        <div class="container">
+          <div class="order-text-container">
+            <h2 class="order-title">
+              Fresh <span>Harvest</span> Box has got you covered
+            </h2>
+            <p class="order-text">
+              Our boxes are packed with delicious, nutritious vegetables,
+              perfect for anyone looking to eat healthier or support local
+              farmers. Order your box today and start enjoying the best that
+              nature has to offer!
+            </p>
+          </div>
+          <div class="order-cards-container">
+            <div class="order-form-container">
+              <h3 class="order-form-title">
+                Ordering <span>from us</span> is quick and easy! Fill out
+                <span>the form</span> below and we will contact you !
+              </h3>
+              <form action="" class="order-form">
+                <label for="name-input" class="order-form-label"></label>
+                <input
+                  type="text"
+                  id="name-input"
+                  class="order-form-input"
+                  placeholder="Full Name"
+                  required
+                />
+                <label for="email-input" class="order-form-label"></label>
+                <input
+                  type="email"
+                  id="email-input"
+                  class="order-form-input"
+                  placeholder="Email"
+                  pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                  required
+                />
+                <label for="comment-input" class="order-form-label"></label>
+                <textarea
+                  type="text"
+                  id="comment-input"
+                  class="order-form-textarea"
+                  placeholder="Comment"
+                ></textarea>
+                <button class="order-form-button" type="submit">Send</button>
+              </form>
+            </div>
+            <div class="order-social-container">
+              <div class="order-img-container">
+                <img
+                  srcset="./images/order@2x.jpg 2x, ./images/order.jpg 1x"
+                  src="./images/order.jpg"
+                  alt=""
+                  class="order-social-img"
+                />
+              </div>
+              <p class="order-social-text">Follow us on our social networks:</p>
+              <ul class="order-social-list">
+                <li class="order-social-item">
+                  <a href="" class="order-social-link" target="_blank"
+                    >instagram</a
+                  >
+                </li>
+                <li class="order-social-item">
+                  <a href="" class="order-social-link" target="_blank"
+                    >facebook</a
+                  >
+                </li>
+                <li class="order-social-item">
+                  <a href="" class="order-social-link" target="_blank"
+                    >youtube</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
     </main>
